@@ -8,9 +8,9 @@ import java.util.Scanner;
 
 public class Practice {
     public static void main(String[] args) {
-        double rateUSD = 78;
-        double rateEUR = 85;
-        double rateJPY = 0.74;
+        double rateUSD = 450;
+        double rateEUR = 500;
+        double rateJPY = 3.14;
 
         Scanner scanner = new Scanner(System.in);
 
@@ -43,15 +43,15 @@ public class Practice {
                 }
 
             } else if (command == 2) {
-                if (moneyBeforeSalary < 3000) {
+                if (moneyBeforeSalary < 10000) {
                     System.out.println("Сегодня лучше поесть дома. Экономьте и вы дотянете до зарплаты!");
-                } else if (moneyBeforeSalary < 10000) {
+                } else if (moneyBeforeSalary < 35000) {
                     if (daysBeforeSalary < 10) {
                         System.out.println("Окей, пора в Макдак!");
                     } else {
                         System.out.println("Сегодня лучше поесть дома. Экономьте и вы дотянете до зарплаты!");
                     }
-                } else if (moneyBeforeSalary < 30000) {
+                } else if (moneyBeforeSalary < 80000) {
                     if (daysBeforeSalary < 10) {
                         System.out.println("Неплохо! Прикупите долларов и зайдите поужинать в классное место. :)");
                     } else {
