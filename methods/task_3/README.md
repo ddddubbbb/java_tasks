@@ -9,8 +9,8 @@ public class Practice {
         System.out.println("Привет, Пиксель!");
         System.out.println("Привет, Байт!");
 
-        double[] feedExpensesCat = {100.50, 236.0, 510.6, 150.20, 80.0, 172.0, 135.4};
-        double[] feedExpensesHamster = {70.50, 146.0, 710.6, 250.20, 83.0, 19.0, 55.4};
+        double[] feedExpensesCat = {500.50, 1270.0, 2590.6, 790.20, 390.0, 890.0, 680.4};
+        double[] feedExpensesHamster = {349.50, 739.0, 3413.6, 1219.20, 490.0, 120.0, 923.4};
 
         double maxFeedExpenseCat = 0;
         for (int i = 0; i < feedExpensesCat.length; i++) {

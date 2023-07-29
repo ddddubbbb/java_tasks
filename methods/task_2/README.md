@@ -30,9 +30,9 @@ public class Practice {
             int lackMoney = expensesSum - salary; // Считаем, сколько не хватает
             int leftMoney = salary - expensesSum; // Считаем излишек средств
 
-            // Пока не начнёт хватать денег на транспорт — сокращаем траты на 100 рублей
+            // Пока не начнёт хватать денег на транспорт — сокращаем траты на 500 тенге
             while ((salary - foodMoney) < transportMoney) {
-                foodMoney = foodMoney - 100;
+                foodMoney = foodMoney - 500;
             }
             // Если не хватает денег на жизнь — не откладываем
             if (transportMoney + foodMoney + savings > salary) {
