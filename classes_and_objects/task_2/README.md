@@ -14,7 +14,7 @@ public class Converter {
         rateRUB = rub;
     }
 
-    void convert(int tenges, int currency) {
+    void convert(double tenges, int currency) {
         if (currency == 1) {
             System.out.println("Ваши сбережения в долларах: " + tenges / rateUSD);
         } else if (currency == 2) {
