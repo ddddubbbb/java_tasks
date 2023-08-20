@@ -66,7 +66,7 @@ public class Practice {
         System.out.println("4 - Очистить список.");
         System.out.println("5 - Проверить, есть ли в зоопарке животное.");
         System.out.println("Любая другая цифра - Выйти из приложения.");
-	    }
+    }
 }
 ```
 
