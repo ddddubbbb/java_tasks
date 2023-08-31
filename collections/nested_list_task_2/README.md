@@ -30,4 +30,4 @@
 
 Следуйте этим шагам, чтобы создать программу, которая позволяет управлять оценками студентов по разным предметам и вычислять средние оценки. По мере решения задачи, убедитесь, что вы понимаете каждый этап и работу каждого метода.
 ##### Как должна выглядеть программа в main'е
-![Screenshot 2023-08-31 at 11.52.19.png](..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F1m%2Fsp4s1hy51j187fyqmsmv46xm0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_uhBUP8%2FScreenshot%202023-08-31%20at%2011.52.19.png)
+<img width="659" alt="Screenshot 2023-08-31 at 12 02 15" src="https://github.com/practicetasks/java_tasks/assets/122010324/24ec8b8f-5b9f-4aef-a035-19787ad0737a">
