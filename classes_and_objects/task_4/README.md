@@ -16,7 +16,7 @@ public class Practice {
         double[] expenses = new double[7]; // Должно стать полем нового класса
 
         Scanner scanner = new Scanner(System.in);
-        Converter converter = new Converter(444.06, 489.32, 4.88);
+        Converter converter = new Converter(444.06, 489.32, 3.81);
         DinnerAdvisor dinnerAdvisor = new DinnerAdvisor();
         ... // Здесь создайте объект класса ExpensesManager
 
@@ -32,7 +32,7 @@ public class Practice {
 
             if (command == 1) {
                 System.out.println("Ваши сбережения: " + moneyBeforeSalary + " KZT");
-                System.out.println("В какую валюту хотите конвертировать? Доступные варианты: 1 - USD, 2 - EUR, 3 - RUB.");
+                System.out.println("В какую валюту хотите конвертировать? Доступные варианты: 1 - USD, 2 - EUR, 3 - JPY.");
                 int currency = scanner.nextInt();
                 converter.convert(moneyBeforeSalary, currency); // Вызовите метод класса Converter
             } else if (command == 2) {

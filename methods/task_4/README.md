@@ -112,17 +112,17 @@ public class Practice {
     public static void convert(Scanner scanner, double moneyBeforeSalary) {
         double rateUSD = 450;
         double rateEUR = 500;
-        double rateRUB = 5;
+        double rateJPY = 3;
 
         System.out.println("Ваши сбережения: " + moneyBeforeSalary + " KZT");
-        System.out.println("В какую валюту хотите конвертировать? Доступные варианты: 1 - USD, 2 - EUR, 3 - RUB.");
+        System.out.println("В какую валюту хотите конвертировать? Доступные варианты: 1 - USD, 2 - EUR, 3 - JPY.");
         int currency = scanner.nextInt();
         if (currency == 1) {
             System.out.println("Ваши сбережения в долларах: " + moneyBeforeSalary / rateUSD);
         } else if (currency == 2) {
             System.out.println("Ваши сбережения в евро: " + moneyBeforeSalary / rateEUR);
         } else if (currency == 3) {
-            System.out.println("Ваши сбережения в рублях: " + moneyBeforeSalary / rateRUB);
+            System.out.println("Ваши сбережения в йенах: " + moneyBeforeSalary / rateJPY);
         } else {
             System.out.println("Неизвестная валюта");
         }

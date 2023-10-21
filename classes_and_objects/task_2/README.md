@@ -1,17 +1,17 @@
 # Задача 
 Осталось исправить код в классе `Practice` — конструктор по-умолчанию больше не генерируется и возникает ошибка.
-При вызове конструктора с параметрами передайте следующие значения аргуметов: 444.06 для доллара, 489.32 для евро и 4.88 для рубля.
+При вызове конструктора с параметрами передайте следующие значения аргуметов: 444.06 для доллара, 489.32 для евро и 3.81 для йены.
 
 ### Класс Converter:
 ```java
 public class Converter {
     double rateUSD;
     double rateEUR;
-    double rateRUB;
-    public Converter(double usd, double eur, double rub) {
+    double rateJPY;
+    public Converter(double usd, double eur, double jpy) {
         rateUSD = usd;
         rateEUR = eur;
-        rateRUB = rub;
+        rateJPY = jpy;
     }
 
     void convert(double tenges, int currency) {
@@ -20,7 +20,7 @@ public class Converter {
         } else if (currency == 2) {
             System.out.println("Ваши сбережения в евро: " + tenges / rateEUR);
         } else if (currency == 3) {
-            System.out.println("Ваши сбережения в рублях: " + tenges / rateRUB);
+            System.out.println("Ваши сбережения в йенах: " + tenges / rateJPY);
         } else {
             System.out.println("Неизвестная валюта");
         }
@@ -51,7 +51,7 @@ public class Practice {
 
             if (command == 1) {
                 System.out.println("Ваши сбережения: " + moneyBeforeSalary + " KZT");
-                System.out.println("В какую валюту хотите конвертировать? Доступные варианты: 1 - USD, 2 - EUR, 3 - RUB.");
+                    System.out.println("В какую валюту хотите конвертировать? Доступные варианты: 1 - USD, 2 - EUR, 3 - JPY.");
                 int currency = scanner.nextInt();
                 converter.convert(moneyBeforeSalary, currency);
             } else if (command == 2) {

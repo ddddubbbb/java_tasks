@@ -4,7 +4,7 @@
 public class Converter {
     double rateUSD = 450;
     double rateEUR = 500;
-    double rateRUB = 5;
+    double rateJPY = 3;
 
     void convert(double tenges, int currency) {
         if (currency == 1) {
@@ -12,7 +12,7 @@ public class Converter {
         } else if (currency == 2) {
             System.out.println("Ваши сбережения в евро: " + tenges / rateEUR);
         } else if (currency == 3) {
-            System.out.println("Ваши сбережения в рублях: " + tenges / rateRUB);
+            System.out.println("Ваши сбережения в йенах: " + tenges / rateJPY);
         } else {
             System.out.println("Неизвестная валюта");
         }
@@ -41,7 +41,7 @@ public class Practice {
 
             if (command == 1) {
                 System.out.println("Ваши сбережения: " + moneyBeforeSalary + " KZT");
-                System.out.println("В какую валюту хотите конвертировать? Доступные варианты: 1 - USD, 2 - EUR, 3 - RUB.");
+                System.out.println("В какую валюту хотите конвертировать? Доступные варианты: 1 - USD, 2 - EUR, 3 - JPY.");
                 int currency = scanner.nextInt();
                 ... // Вызовите метод класса Converter
             } else if (command == 2) {
